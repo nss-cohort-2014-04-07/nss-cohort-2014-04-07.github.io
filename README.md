@@ -1,2 +1,6 @@
-nss-cohort-2014-04-07.github.io
-===============================
+# Portfolio for NSS Cohort 5
+
+### Technologies used
+* HTML
+* CSS
+* JS
