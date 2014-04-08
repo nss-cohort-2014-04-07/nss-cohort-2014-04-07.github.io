@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Monoton);
+@import url(http://fonts.googleapis.com/css?family=Pinyon+Script);
+@import url(http://fonts.googleapis.com/css?family=Dawning+of+a+New+Day);
+
+body{
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+}
+
+h1{
+  color: red;
+  background-color: yellow;
+  font-family: 'Monoton', cursive;
+  font-size: 60px;
+  opacity: 0.25;
+}
+
+h4{
+  border: 1px solid red;
+  padding: 15px;
+  background-color: yellow;
+  border-radius: 10px;
+  letter-spacing: 3px;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 35px;
+}
+
+ul{
+  font-family: 'Dawning of a New Day', cursive;
+  background-color: #cccccc;
+  font-size: 25px;
+}
+
+li:nth-child(2n){
+  color: red;
+}
+
+li:nth-child(2n + 1){
+  color: blue;
+}
