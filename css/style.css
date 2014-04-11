@@ -1,40 +1,42 @@
-@import url(http://fonts.googleapis.com/css?family=Monoton);
-@import url(http://fonts.googleapis.com/css?family=Pinyon+Script);
-@import url(http://fonts.googleapis.com/css?family=Dawning+of+a+New+Day);
+@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 body{
-  background-image: url("../images/bg.jpg");
-  background-size: cover;
+  background-image: url("../images/skulls.png");
 }
 
-h1{
-  color: red;
-  background-color: yellow;
-  font-family: 'Monoton', cursive;
-  font-size: 60px;
-  opacity: 0.25;
+div.item{
+  float: left;
+  width: 300px;
+  height: 200px;
+  border: 1px dashed #cccccc;
+  margin: 25px;
+  background-color: white;
 }
 
-h4{
-  border: 1px solid red;
-  padding: 15px;
-  background-color: yellow;
-  border-radius: 10px;
-  letter-spacing: 3px;
-  font-family: 'Pinyon Script', cursive;
-  font-size: 35px;
+div.photo{
+  width: 300px;
+  height: 150px;
+  background-image: url("../images/simple-calc.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #cccccc;
 }
 
-ul{
-  font-family: 'Dawning of a New Day', cursive;
-  background-color: #cccccc;
-  font-size: 25px;
+div.meta{
+  font-family: 'Anonymous Pro';
+  font-size: 13px;
+  padding: 5px;
 }
 
-li:nth-child(2n){
-  color: red;
-}
-
-li:nth-child(2n + 1){
+a{
   color: blue;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.clear{
+  clear: both;
 }
