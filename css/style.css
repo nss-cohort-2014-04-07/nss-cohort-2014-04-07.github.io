@@ -1,10 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 body{
-  background-image: url("/images/skulls.png");
+  background-image: url("../images/skulls.png");
 }
 
-div.item{
+#portfolio > .item{
   float: left;
   width: 300px;
   height: 200px;
@@ -13,16 +13,23 @@ div.item{
   background-color: white;
 }
 
-div.photo{
+#portfolio > .item > .photo{
   width: 300px;
   height: 150px;
-  background-image: url("/images/simple-calc.png");
   background-size: contain;
   background-repeat: no-repeat;
   border-bottom: 1px solid #cccccc;
 }
 
-div.meta{
+#portfolio > .item:nth-child(1) > .photo{
+  background-image: url("../images/simple-calc.png");
+}
+
+#portfolio > .item:nth-child(2) > .photo{
+  background-image: url("../images/super-calc.png");
+}
+
+#portfolio > .item > meta{
   font-family: 'Anonymous Pro';
   font-size: 13px;
   padding: 5px;
