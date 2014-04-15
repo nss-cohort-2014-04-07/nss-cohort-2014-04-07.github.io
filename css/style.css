@@ -29,6 +29,10 @@ body{
   background-image: url("../images/super-calc.png");
 }
 
+#portfolio > .item:nth-child(3) > .photo{
+  background-image: url("../images/super-bank.png");
+}
+
 #portfolio > .item > meta{
   font-family: 'Anonymous Pro';
   font-size: 13px;
