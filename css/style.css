@@ -33,6 +33,10 @@ body{
   background-image: url("../images/super-bank.png");
 }
 
+#portfolio > .item:nth-child(4) > .photo{
+  background-image: url("../images/yahtzee.png");
+}
+
 #portfolio > .item > meta{
   font-family: 'Anonymous Pro';
   font-size: 13px;
