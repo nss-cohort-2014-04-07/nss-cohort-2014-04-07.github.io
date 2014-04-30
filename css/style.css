@@ -37,6 +37,18 @@ body{
   background-image: url("../images/yahtzee.png");
 }
 
+#portfolio > .item:nth-child(5) > .photo{
+  background-image: url("../images/memory.png");
+}
+
+#portfolio > .item:nth-child(6) > .photo{
+  background-image: url("../images/checkers.png");
+}
+
+#portfolio > .item:nth-child(7) > .photo{
+  background-image: url("../images/weather-map.png");
+}
+
 #portfolio > .item > meta{
   font-family: 'Anonymous Pro';
   font-size: 13px;
